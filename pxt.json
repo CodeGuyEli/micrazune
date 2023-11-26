@@ -1,0 +1,34 @@
+{
+    "name": "Micrazune",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "zune-assets": "github:kiki-lee/zune-assets#v0.0.13",
+        "controller": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "tutorial.custom.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.12.46",
+        "tag": "v1.12.46",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/e66fb08db35df2249cd64300195259c64d497106",
+        "target": "1.13.50",
+        "pxt": "8.5.57",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj",
+    "theme": "zune"
+}
